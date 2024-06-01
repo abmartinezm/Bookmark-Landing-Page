@@ -476,6 +476,11 @@ footer{
     .menu-area{
         width: 70%;
     }
+
+    .subscribe h4{
+        width: 100%;
+    }
+    
     .cta-area{
         padding: 0.5em;
     }
@@ -516,7 +521,17 @@ footer{
         width: 100%;
     }
 }
-@media screen and (max-width: 850px) {
+
+@media (min-width: 702px) and (max-width: 820px) {
+
+    header{
+        padding:5vw !important;
+    }
+
+    .subscribe h4{
+        width: 100%;
+    }
+
     .menu-area{
         width: 80%;
     }
@@ -527,7 +542,19 @@ footer{
         padding: 0;
     }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 701px) {
+    .menu-area{
+        width: 80%;
+    }
+    section{
+        padding: 0 20px;
+    }
+    .cta-area{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 700px) {
     h2{
         font-size: 24px;
     }
